@@ -16,5 +16,12 @@ fields:
     schema:
       format: markdown
   label: Guide
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: toolkit
 pages:
 - _toolkit/precautions-when-leafleting-or-putting-up-posters.md
