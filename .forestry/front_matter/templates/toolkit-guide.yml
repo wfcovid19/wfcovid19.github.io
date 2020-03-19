@@ -7,5 +7,14 @@ fields:
   config:
     required: false
   label: Title
+- name: guide
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Guide
 pages:
 - _toolkit/precautions-when-leafleting-or-putting-up-posters.md
