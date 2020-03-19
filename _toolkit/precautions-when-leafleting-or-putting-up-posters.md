@@ -21,6 +21,5 @@ guide: "Firstly, please refer to this excellent [guide](https://queercare.networ
   around the local area. Some ideas of places to put them are:\n\n* Shop and cafe
   windows and noticeboards (ask for permission!)\n* Community noticeboards (try religious
   centres, libraries, community centres, blocks of flats)"
-published: false
 
 ---
