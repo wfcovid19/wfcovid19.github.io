@@ -13,7 +13,7 @@ sections:
   create: documents
   match: "**/*"
 - type: directory
-  path: ''
+  path: signposting
   label: Signposting
   create: documents
   match: "**/*"
