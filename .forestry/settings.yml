@@ -8,13 +8,13 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: ''
-  label: Signposting
+  path: _toolkit
+  label: Toolkit
   create: documents
   match: "**/*"
 - type: directory
-  path: _toolkit
-  label: Toolkit
+  path: ''
+  label: Signposting
   create: documents
   match: "**/*"
 upload_dir: uploads
