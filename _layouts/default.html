@@ -44,6 +44,16 @@ body, .card {
   background-color: #1D1B1F;
 }
 
+.navigation li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.navigation a, .navigation a:hover {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .btn-primary {
   background-color: #1D1B1F;
   border-color: #1D1B1F;
@@ -85,6 +95,12 @@ h2 {
   text-align: center;
   margin-bottom: 15px;
 }
+.navigation {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  text-align: center;
+}
 </style>
 
   </head>
@@ -100,6 +116,12 @@ h2 {
           </div>
         </a>
       </div>
+      <ul class="navigation">
+        <li><a href="/">Home</a></li>
+        <li><a href="/toolkit">Toolkit</a></li>
+        <li><a href="/signposting">Signposting</a></li>
+        <li><a href="/resources">Resources</a></li>
+      </ul>
     </nav>
     <div class="container">
     {{ content }}
