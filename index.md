@@ -92,6 +92,6 @@ We do not offer medical advice.
 We won’t come into your home. **If someone says they are from our group and asks to come
 inside, please say no.**
 
-We wont ask to test you for the virus.
+**We wont ask to test you for the virus.**
 
-We won’t ask you for money or other payment at your door.
+**We won’t ask you for money or other payment at your door.**
