@@ -43,3 +43,32 @@ Join our <a href="https://facebook.com/groups/wfcoronavirus" target="_blank">Fac
 Email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutualaid@gmail.com</a>.
 </p>
 </div>
+
+<div class="ward-listings" markdown="1">
+
+# IF YOU NEED HELP
+
+<p>Contact the group for your ward using the phone or email listed below.</p>
+
+<table class="table table-bordered">
+<thead>
+  <tr>
+    <th>Ward</th>
+    <th>Phone number</th>
+    <th>Email</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Leytonstone</td>
+    <td>07933521407</td>
+    <td>leytonstone.mutual.aid@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Hoe street</td>
+    <td>07566767950</td>
+    <td>hoestreetmutualaid@gmail.com</td>
+  </tr>
+</tbody>
+</table>
+</div>
