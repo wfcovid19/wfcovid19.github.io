@@ -2,6 +2,10 @@
 layout: default
 ---
 
+Waltham Forest Mutual Aid is a group of local people who have come together to offer help to people who need it during the pandemic.
+
+This website contains resources we have created or found that are useful for running your own ward or street-level group.
+
 <div class="card-deck">
   <div class="card">
     <div class="card-body">
@@ -48,7 +52,9 @@ Email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutua
 
 # IF YOU NEED HELP
 
-<p>Contact the group for your ward using the phone or email listed below.</p>
+We will help if we can.
+
+Contact the group for your ward using the phone or email listed below.
 
 <table class="table table-bordered">
 <thead>
@@ -72,3 +78,15 @@ Email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutua
 </tbody>
 </table>
 </div>
+
+## Notes on safety
+
+We do not offer medical advice.
+**If you are feeling unwell and are worried, please call the NHS on 111.**
+
+We won’t come into your home. **If someone says they are from our group and asks to come
+inside, please say no.**
+
+We wont ask to test you for the virus.
+
+We won’t ask you for money or other payment at your door.
