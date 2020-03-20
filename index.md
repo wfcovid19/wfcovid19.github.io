@@ -12,7 +12,7 @@ layout: default
       <a href="/toolkit" class="card-button btn btn-primary">Toolkit</a>
     </div>
   </div>
-  
+
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">Signposting</h5>
@@ -22,7 +22,7 @@ layout: default
       <a href="/signposting" class="card-button btn btn-primary">Signposting</a>
     </div>
   </div>
-  
+
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">Resources</h5>
@@ -32,4 +32,14 @@ layout: default
       <a href="/resources" class="card-button btn btn-primary">Resources</a>
     </div>
   </div>
+</div>
+
+<div class="ctas">
+<p>
+Join our <a href="https://facebook.com/groups/wfcoronavirus" target="_blank">Facebook group</a>.
+</p>
+
+<p>
+Email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutualaid@gmail.com</a>.
+</p>
 </div>
