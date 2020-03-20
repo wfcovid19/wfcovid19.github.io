@@ -1,9 +1,8 @@
 ---
-title: Signposting
-subtitle: Local organisations that can support you
 layout: default
 ---
 
-{% for post in site.signposting %}
- * <a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
+# Signposting
+
+<iframe src="https://drive.google.com/embeddedfolderview?id=1mIYjr_4yBWhicsYuKoXV3YNeKLdFkun2#list" style="width:100%; height:600px; border:1px solid black;">
+</iframe>
