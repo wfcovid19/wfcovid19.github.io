@@ -66,6 +66,11 @@ Contact the group for your ward using the phone or email listed below.
 </thead>
 <tbody>
   <tr>
+    <td>Cathall</td>
+    <td>07926432520</td>
+    <td>cathall.mutual.aid@gmail.com</td>
+  </tr>
+  <tr>
     <td>High street</td>
     <td>07516922035</td>
     <td>e17highstmutualaid@gmail.com</td>
