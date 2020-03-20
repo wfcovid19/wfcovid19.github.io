@@ -66,14 +66,19 @@ Contact the group for your ward using the phone or email listed below.
 </thead>
 <tbody>
   <tr>
-    <td>Leytonstone</td>
-    <td>07933521407</td>
-    <td>leytonstone.mutual.aid@gmail.com</td>
+    <td>High street</td>
+    <td>07516922035</td>
+    <td>e17highstmutualaid@gmail.com</td>
   </tr>
   <tr>
     <td>Hoe street</td>
     <td>07566767950</td>
     <td>hoestreetmutualaid@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Leytonstone</td>
+    <td>07933521407</td>
+    <td>leytonstone.mutual.aid@gmail.com</td>
   </tr>
 </tbody>
 </table>
