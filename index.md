@@ -56,7 +56,7 @@ We will help if we can.
 
 Contact the group for your ward using the phone or email listed below.
 
-<table class="table table-responsive table-bordered">
+<table class="table table-bordered">
 <thead>
   <tr>
     <th>Ward</th>
