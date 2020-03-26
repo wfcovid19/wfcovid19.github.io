@@ -73,6 +73,11 @@ Contact the group for your ward using the phone or email listed below.
     <td>cathall.mutual.aid@gmail.com</td>
   </tr>
   <tr>
+    <td>Chingford Green</td>
+    <td></td>
+    <td>Chingfordgreenmutualaid@gmail.com</td>
+  </tr>
+  <tr>
     <td>Forest</td>
     <td></td>
     <td>forestwardmutualaid@gmail.com</td>
