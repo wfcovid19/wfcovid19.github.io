@@ -74,8 +74,8 @@ Contact the group for your ward using the phone or email listed below.
   </tr>
   <tr>
     <td>Forest</td>
+    <td></td>
     <td>forestwardmutualaid@gmail.com</td>
-    <td>cathall.mutual.aid@gmail.com</td>
   </tr>
   <tr>
     <td>Grove Green</td>
