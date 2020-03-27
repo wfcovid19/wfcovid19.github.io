@@ -6,7 +6,7 @@ Waltham Forest Mutual Aid is a group of local people who have come together to o
 
 This website contains resources we have created or found that are useful for running your own ward or street-level group.
 
-In particular, the resources provided by [Queercare](https://wiki.queercare.network/index.php?title=Category:Covid) are invaluable.
+In particular, the resources provided by <a href="https://wiki.queercare.network/index.php?title=Category:Covid" target="_blank">Queercare</a> are invaluable.
 
 <div class="card-deck">
   <div class="card">
