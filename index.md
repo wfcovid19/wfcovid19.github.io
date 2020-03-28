@@ -89,8 +89,8 @@ Contact the group for your ward using the phone or email listed below.
   </tr>
   <tr>
     <td>Endlebury</td>
-    <td></td>
-    <td></td>
+    <td>020 31373908</td>
+    <td>chingfordcorona@gmail.com</td>
   </tr>
   <tr>
     <td>Forest</td>
@@ -109,8 +109,8 @@ Contact the group for your ward using the phone or email listed below.
   </tr>
   <tr>
     <td>Higham Hill</td>
-    <td></td>
-    <td></td>
+    <td>07502029141</td>
+    <td>sutherlandrdmutualaid.wfcovid19@gmail.com</td>
   </tr>
   <tr>
     <td>Highams Park & Hatch Lane</td>
@@ -160,8 +160,8 @@ Contact the group for your ward using the phone or email listed below.
   </tr>
   <tr>
     <td>William Morris</td>
-    <td></td>
-    <td></td>
+    <td>07305960259</td>
+    <td>Williammorriscovid@gmail.com</td>
   </tr>
   <tr>
     <td>Wood Street</td>
