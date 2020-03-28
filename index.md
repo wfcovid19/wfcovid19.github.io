@@ -68,11 +68,6 @@ Contact the group for your ward using the phone or email listed below.
 </thead>
 <tbody>
   <tr>
-    <td>Buxton Melford Woodville Road - Market west</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Cann Hall</td>
     <td></td>
     <td></td>
