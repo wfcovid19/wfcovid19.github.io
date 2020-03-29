@@ -109,8 +109,8 @@ Contact the group for your ward using the phone or email listed below.
   </tr>
   <tr>
     <td>Higham Hill</td>
-    <td>07502029141</td>
-    <td>sutherlandrdmutualaid.wfcovid19@gmail.com</td>
+    <td>07309409285</td>
+    <td>highamhillmutualaid@gmail.com</td>
   </tr>
   <tr>
     <td>Highams Park & Hatch Lane</td>
