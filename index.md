@@ -70,7 +70,7 @@ Contact the group for your ward using the phone or email listed below.
   <tr>
     <td>Cann Hall</td>
     <td></td>
-    <td></td>
+    <td>cannhallmutualaid@gmail.com</td>
   </tr>
   <tr>
     <td>Cathall</td>
