@@ -273,7 +273,11 @@ var Bar = function Bar() {
           React.createElement(
             'td',
             null,
-            CONTACT_DETAILS[k] && CONTACT_DETAILS[k].email
+            CONTACT_DETAILS[k] && React.createElement(
+              'a',
+              { href: 'mailto:' + CONTACT_DETAILS[k].email },
+              CONTACT_DETAILS[k].email
+            )
           )
         );
       })

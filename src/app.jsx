@@ -111,7 +111,7 @@ const Bar = () => {
           <tr>
             <td>{k}</td>
             <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].phone}</td>
-            <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].email}</td>
+            <td>{CONTACT_DETAILS[k] && <a href={`mailto:${CONTACT_DETAILS[k].email}`}>{CONTACT_DETAILS[k].email}</a>}</td>
           </tr>
         ))}
       </tbody>
