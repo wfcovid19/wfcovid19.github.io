@@ -4,11 +4,17 @@ layout: default
 
 Waltham Forest Mutual Aid is a group of local people who have come together to offer help to people who need it during the pandemic.
 
-This website contains resources we have created or found that are useful for running your own ward or street-level group.
+To get involved, join our <a href="https://facebook.com/groups/wfcoronavirus" target="_blank">Facebook group</a> or email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutualaid@gmail.com</a>.
+
+<div id="react-container"></div>
+
+<hr>
+
+This website also contains resources we have created or found that are useful for running your own ward or street-level group.
 
 In particular, the resources provided by <a href="https://wiki.queercare.network/index.php?title=Category:Covid" target="_blank">Queercare</a> are invaluable.
 
-<div class="card-deck">
+<div class="card-deck mb-5">
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">Toolkit</h5>
@@ -40,138 +46,8 @@ In particular, the resources provided by <a href="https://wiki.queercare.network
   </div>
 </div>
 
-<div class="ctas">
-<p>
-Join our <a href="https://facebook.com/groups/wfcoronavirus" target="_blank">Facebook group</a>.
-</p>
 
-<p>
-Email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutualaid@gmail.com</a>.
-</p>
-</div>
-
-<div class="ward-listings" markdown="1">
-
-# IF YOU NEED HELP
-
-We will help if we can.
-
-Contact the group for your ward using the phone or email listed below.
-
-<table class="table table-bordered">
-<thead>
-  <tr>
-    <th>Ward</th>
-    <th>Phone number</th>
-    <th>Email</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Cann Hall</td>
-    <td></td>
-    <td>cannhallmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Cathall</td>
-    <td>07926432520</td>
-    <td>cathall.mutual.aid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Chapel End</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Chingford Green</td>
-    <td></td>
-    <td>Chingfordgreenmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Endlebury</td>
-    <td>020 31373908</td>
-    <td>chingfordcorona@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Forest</td>
-    <td>07515637649</td>
-    <td>forestwardmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Grove Green</td>
-    <td>07933057684</td>
-    <td>Grovegreenmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>High street</td>
-    <td>07516922035</td>
-    <td>e17highstmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Higham Hill</td>
-    <td>07309409285</td>
-    <td>highamhillmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Highams Park & Hatch Lane</td>
-    <td>07424807762</td>
-    <td>highamsparkcovid19@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Hoe street</td>
-    <td>07566767950</td>
-    <td>hoestreetmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Larkswood</td>
-    <td>07546155654</td>
-    <td>larkswoodcovid19@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Lea Bridge</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Leyton</td>
-    <td>07497620579 or 07446258318</td>
-    <td>leytonmutualaid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Leytonstone</td>
-    <td>07933521407</td>
-    <td>leytonstone.mutual.aid@gmail.com</td>
-  </tr>
-
-  <tr>
-    <td>Lloyd Park</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Markhouse</td>
-    <td>TBD</td>
-    <td>Friendsofstjamespark@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Valley</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>William Morris</td>
-    <td>07305960259</td>
-    <td>Williammorriscovid@gmail.com</td>
-  </tr>
-  <tr>
-    <td>Wood Street</td>
-    <td></td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
-</div>
-
+<div style="text-align: center" markdown="1">
 ## Notes on safety
 
 We do not offer medical advice.
@@ -183,3 +59,9 @@ inside, please say no.**
 **We wont ask to test you for the virus.**
 
 **We won’t ask you for money or other payment at your door.**
+</div>
+
+<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/js/app.js" type="application/javascript"></script>
