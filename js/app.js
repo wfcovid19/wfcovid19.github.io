@@ -116,6 +116,17 @@ var Foo = function Foo() {
               ),
               React.createElement('input', { autoFocus: true, className: 'form-control', type: 'text', id: 'postcode', name: 'postcode', placeholder: 'Your postcode' }),
               React.createElement(
+                'p',
+                { className: 'mt-2' },
+                'Or see ',
+                React.createElement(
+                  'a',
+                  { href: '/groups' },
+                  'the full list'
+                ),
+                '.'
+              ),
+              React.createElement(
                 'button',
                 { type: 'submit', className: 'card-button btn btn-primary' },
                 'Search'

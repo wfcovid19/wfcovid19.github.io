@@ -62,6 +62,7 @@ const Foo = () => {
               <div className="form-group">
                 <label htmlFor="postcode">Enter your postcode to find the contact details of your local group.</label>
                 <input autoFocus className="form-control" type="text" id="postcode" name="postcode" placeholder="Your postcode" />
+                <p className="mt-2">Or see <a href="/groups">the full list</a>.</p>
                 <button type="submit" className="card-button btn btn-primary">Search</button>
               </div>
             </form>
