@@ -50,9 +50,9 @@ const Foo = () => {
 
                   <p>{contactInfo[1] && contactInfo[1].phone ? `Phone: ${contactInfo[1].phone}` : ''}</p>
 
-                  <p>{contactInfo[1] && contactInfo[1].email ? `Email: ${contactInfo[1].email}` : ''}</p>
+                  <p>{contactInfo[1] && contactInfo[1].email ? <span>Email: <a href={`mailto:${contactInfo[1].email}`} target="_blank">{contactInfo[1].email}</a></span> : ''}</p>
 
-                  <p>{contactInfo[1] && contactInfo[1].facebook ? `Facebook: ${contactInfo[1].facebook}` : ''}</p>
+                  <p>{contactInfo[1] && contactInfo[1].facebook ? <span>Facebook: <a href={contactInfo[1].facebook} target="_blank">{contactInfo[1].facebook}</a></span> : ''}</p>
 
                   <p>{!contactInfo[1] ? `We do not have this group's contact details - please email us at walthamforestmutualaid@gmail.com and we will try to put you in touch.` : ''}</p>
 

@@ -87,12 +87,30 @@ var Foo = function Foo() {
             React.createElement(
               'p',
               null,
-              contactInfo[1] && contactInfo[1].email ? 'Email: ' + contactInfo[1].email : ''
+              contactInfo[1] && contactInfo[1].email ? React.createElement(
+                'span',
+                null,
+                'Email: ',
+                React.createElement(
+                  'a',
+                  { href: 'mailto:' + contactInfo[1].email, target: '_blank' },
+                  contactInfo[1].email
+                )
+              ) : ''
             ),
             React.createElement(
               'p',
               null,
-              contactInfo[1] && contactInfo[1].facebook ? 'Facebook: ' + contactInfo[1].facebook : ''
+              contactInfo[1] && contactInfo[1].facebook ? React.createElement(
+                'span',
+                null,
+                'Facebook: ',
+                React.createElement(
+                  'a',
+                  { href: contactInfo[1].facebook, target: '_blank' },
+                  contactInfo[1].facebook
+                )
+              ) : ''
             ),
             React.createElement(
               'p',
