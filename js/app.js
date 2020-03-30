@@ -20,7 +20,7 @@ var CONTACT_DETAILS = {
   'Markhouse': { 'phone': null, 'email': 'Friendsofstjamespark@gmail.com' },
   'Valley': null,
   'William Morris': { 'phone': '07305960259', 'email': 'Williammorriscovid@gmail.com' },
-  'Wood Street': null
+  'Wood Street': { 'facebook': 'https://www.facebook.com/groups/woodstmutualaid/' }
 };
 
 var search = function search(postcode, handler) {
@@ -88,6 +88,11 @@ var Foo = function Foo() {
               'p',
               null,
               contactInfo[1] && contactInfo[1].email ? 'Email: ' + contactInfo[1].email : ''
+            ),
+            React.createElement(
+              'p',
+              null,
+              contactInfo[1] && contactInfo[1].facebook ? 'Facebook: ' + contactInfo[1].facebook : ''
             ),
             React.createElement(
               'p',
@@ -250,6 +255,11 @@ var Bar = function Bar() {
           'th',
           null,
           'Email'
+        ),
+        React.createElement(
+          'th',
+          null,
+          'Facebook'
         )
       )
     ),
@@ -273,10 +283,19 @@ var Bar = function Bar() {
           React.createElement(
             'td',
             null,
-            CONTACT_DETAILS[k] && React.createElement(
+            CONTACT_DETAILS[k] && CONTACT_DETAILS[k].email && React.createElement(
               'a',
               { href: 'mailto:' + CONTACT_DETAILS[k].email },
               CONTACT_DETAILS[k].email
+            )
+          ),
+          React.createElement(
+            'td',
+            null,
+            CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && React.createElement(
+              'a',
+              { href: '' + CONTACT_DETAILS[k].facebook },
+              CONTACT_DETAILS[k].facebook
             )
           )
         );

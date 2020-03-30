@@ -18,7 +18,7 @@ const CONTACT_DETAILS = {
 'Markhouse': { 'phone': null, 'email': 'Friendsofstjamespark@gmail.com' },
 'Valley': null,
 'William Morris': { 'phone': '07305960259', 'email': 'Williammorriscovid@gmail.com' },
-'Wood Street': null,
+'Wood Street': {'facebook': 'https://www.facebook.com/groups/woodstmutualaid/'},
 };
 
 const search = (postcode, handler) => {
@@ -51,6 +51,8 @@ const Foo = () => {
                   <p>{contactInfo[1] && contactInfo[1].phone ? `Phone: ${contactInfo[1].phone}` : ''}</p>
 
                   <p>{contactInfo[1] && contactInfo[1].email ? `Email: ${contactInfo[1].email}` : ''}</p>
+
+                  <p>{contactInfo[1] && contactInfo[1].facebook ? `Facebook: ${contactInfo[1].facebook}` : ''}</p>
 
                   <p>{!contactInfo[1] ? `We do not have this group's contact details - please email us at walthamforestmutualaid@gmail.com and we will try to put you in touch.` : ''}</p>
 
@@ -104,6 +106,7 @@ const Bar = () => {
           <th>Ward</th>
           <th>Phone number</th>
           <th>Email</th>
+          <th>Facebook</th>
         </tr>
       </thead>
       <tbody>
@@ -111,7 +114,8 @@ const Bar = () => {
           <tr>
             <td>{k}</td>
             <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].phone}</td>
-            <td>{CONTACT_DETAILS[k] && <a href={`mailto:${CONTACT_DETAILS[k].email}`}>{CONTACT_DETAILS[k].email}</a>}</td>
+            <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].email && <a href={`mailto:${CONTACT_DETAILS[k].email}`}>{CONTACT_DETAILS[k].email}</a>}</td>
+            <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && <a href={`${CONTACT_DETAILS[k].facebook}`}>{CONTACT_DETAILS[k].facebook}</a>}</td>
           </tr>
         ))}
       </tbody>
