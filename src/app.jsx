@@ -1,8 +1,8 @@
 const CONTACT_DETAILS = {
-'Cann Hall': { 'phone': {}, 'email': 'cannhallmutualaid@gmail.com' },
+'Cann Hall': { 'phone': null, 'email': 'cannhallmutualaid@gmail.com' },
 'Cathall': { 'phone': '07926432520', 'email': 'cathall.mutual.aid@gmail.com' },
 'Chapel End': {},
-'Chingford Green': { 'phone': {}, 'email': 'Chingfordgreenmutualaid@gmail.com' },
+'Chingford Green': { 'phone': null, 'email': 'Chingfordgreenmutualaid@gmail.com' },
 'Endlebury': { 'phone': '020 31373908', 'email': 'chingfordcorona@gmail.com' },
 'Forest': { 'phone': '07515637649', 'email': 'forestwardmutualaid@gmail.com' },
 'Grove Green': { 'phone': '07933057684', 'email': 'Grovegreenmutualaid@gmail.com' },
@@ -10,7 +10,7 @@ const CONTACT_DETAILS = {
 'Hatch Lane': {},
 'High Street': { 'phone': '07516922035', 'email': 'e17highstmutualaid@gmail.com' },
 'Higham Hill': { 'phone': '07309409285', 'email': 'highamhillmutualaid@gmail.com' },
-'Hoe Street': { 'phone': '07566767950', 'email': 'hoestreetmutualaid@gmail.com' },
+'Hoe Street': { 'form': 'https://forms.gle/tvyyEdekf8z2rCbW6', 'phone': '07566767950', 'email': 'hoestreetmutualaid@gmail.com' },
 'Larkswood': { 'phone': '07546155654', 'email': 'larkswoodcovid19@gmail.com' },
 'Lea Bridge': { 'phone': '0208 539 0732 (12:30-3 tuesday-sat)', 'email': 'aid@loveleabridge.com' },
 'Leyton': { 'phone': '07497620579 or 07446258318', 'email': 'leytonmutualaid@gmail.com' },
@@ -111,8 +111,8 @@ const Bar = () => {
           <th>Ward</th>
           <th>Phone number</th>
           <th>Email</th>
-          <th>Facebook</th>
           <th>Signup form</th>
+          <th>Facebook</th>
         </tr>
       </thead>
       <tbody>
@@ -121,8 +121,8 @@ const Bar = () => {
             <td>{k}</td>
             <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].phone}</td>
             <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].email && <a href={`mailto:${CONTACT_DETAILS[k].email}`}>{CONTACT_DETAILS[k].email}</a>}</td>
-            <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && <a href={`${CONTACT_DETAILS[k].facebook}`}>{CONTACT_DETAILS[k].facebook}</a>}</td>
             <td><a href={CONTACT_DETAILS[k].form || DEFAULT_FORM}>{CONTACT_DETAILS[k].form || DEFAULT_FORM}</a></td>
+            <td>{CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && <a href={`${CONTACT_DETAILS[k].facebook}`}>{CONTACT_DETAILS[k].facebook}</a>}</td>
           </tr>
         ))}
       </tbody>

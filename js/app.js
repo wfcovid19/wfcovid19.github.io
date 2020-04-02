@@ -1,10 +1,10 @@
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 var CONTACT_DETAILS = {
-  'Cann Hall': { 'phone': {}, 'email': 'cannhallmutualaid@gmail.com' },
+  'Cann Hall': { 'phone': null, 'email': 'cannhallmutualaid@gmail.com' },
   'Cathall': { 'phone': '07926432520', 'email': 'cathall.mutual.aid@gmail.com' },
   'Chapel End': {},
-  'Chingford Green': { 'phone': {}, 'email': 'Chingfordgreenmutualaid@gmail.com' },
+  'Chingford Green': { 'phone': null, 'email': 'Chingfordgreenmutualaid@gmail.com' },
   'Endlebury': { 'phone': '020 31373908', 'email': 'chingfordcorona@gmail.com' },
   'Forest': { 'phone': '07515637649', 'email': 'forestwardmutualaid@gmail.com' },
   'Grove Green': { 'phone': '07933057684', 'email': 'Grovegreenmutualaid@gmail.com' },
@@ -12,7 +12,7 @@ var CONTACT_DETAILS = {
   'Hatch Lane': {},
   'High Street': { 'phone': '07516922035', 'email': 'e17highstmutualaid@gmail.com' },
   'Higham Hill': { 'phone': '07309409285', 'email': 'highamhillmutualaid@gmail.com' },
-  'Hoe Street': { 'phone': '07566767950', 'email': 'hoestreetmutualaid@gmail.com' },
+  'Hoe Street': { 'form': 'https://forms.gle/tvyyEdekf8z2rCbW6', 'phone': '07566767950', 'email': 'hoestreetmutualaid@gmail.com' },
   'Larkswood': { 'phone': '07546155654', 'email': 'larkswoodcovid19@gmail.com' },
   'Lea Bridge': { 'phone': '0208 539 0732 (12:30-3 tuesday-sat)', 'email': 'aid@loveleabridge.com' },
   'Leyton': { 'phone': '07497620579 or 07446258318', 'email': 'leytonmutualaid@gmail.com' },
@@ -300,12 +300,12 @@ var Bar = function Bar() {
         React.createElement(
           'th',
           null,
-          'Facebook'
+          'Signup form'
         ),
         React.createElement(
           'th',
           null,
-          'Signup form'
+          'Facebook'
         )
       )
     ),
@@ -338,19 +338,19 @@ var Bar = function Bar() {
           React.createElement(
             'td',
             null,
-            CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && React.createElement(
+            React.createElement(
               'a',
-              { href: '' + CONTACT_DETAILS[k].facebook },
-              CONTACT_DETAILS[k].facebook
+              { href: CONTACT_DETAILS[k].form || DEFAULT_FORM },
+              CONTACT_DETAILS[k].form || DEFAULT_FORM
             )
           ),
           React.createElement(
             'td',
             null,
-            React.createElement(
+            CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && React.createElement(
               'a',
-              { href: CONTACT_DETAILS[k].form || DEFAULT_FORM },
-              CONTACT_DETAILS[k].form || DEFAULT_FORM
+              { href: '' + CONTACT_DETAILS[k].facebook },
+              CONTACT_DETAILS[k].facebook
             )
           )
         );
