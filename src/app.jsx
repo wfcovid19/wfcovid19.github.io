@@ -56,12 +56,14 @@ const Foo = () => {
                       <p>{contactInfo[1] && contactInfo[1].email ? <span>Email: <a href={`mailto:${contactInfo[1].email}`} target="_blank">{contactInfo[1].email}</a></span> : ''}</p>
 
                       <p>{contactInfo[1] && contactInfo[1].facebook ? <span>Facebook: <a href={contactInfo[1].facebook} target="_blank">{contactInfo[1].facebook}</a></span> : ''}</p>
+
+                      <p>{Object.keys(contactInfo[1]).length === 0 ? <span>We do not have this group's contact details - please email us at <a href="mailto:walthamforestmutualaid@gmail.com">walthamforestmutualaid@gmail.com</a> and we will try to put you in touch.</span> : ''}</p>
+
                       <h4 className="mb-3">If you want to help</h4>
                       <p>Fill in this form: <a href={contactInfo[1] ? contactInfo[1].form || DEFAULT_FORM : DEFAULT_FORM}>{contactInfo[1] ? contactInfo[1].form || DEFAULT_FORM : DEFAULT_FORM}</a></p>
                       <p>{contactInfo[1] && contactInfo[1].facebook ? <span>Join this Facebook group: <a href={contactInfo[1].facebook} target="_blank">{contactInfo[1].facebook}</a></span> : ''}</p>
 
 
-                  <p>{Object.keys(contactInfo[1]).length === 0 ? `We do not have this group's contact details - please email us at walthamforestmutualaid@gmail.com and we will try to put you in touch.` : ''}</p>
 
                   <button type="submit" className="card-button btn btn-primary" onClick={() => setContactInfo(null)}>Close</button>
                 </div>

@@ -111,6 +111,21 @@ var Foo = function Foo() {
               ) : ''
             ),
             React.createElement(
+              'p',
+              null,
+              Object.keys(contactInfo[1]).length === 0 ? React.createElement(
+                'span',
+                null,
+                'We do not have this group\'s contact details - please email us at ',
+                React.createElement(
+                  'a',
+                  { href: 'mailto:walthamforestmutualaid@gmail.com' },
+                  'walthamforestmutualaid@gmail.com'
+                ),
+                ' and we will try to put you in touch.'
+              ) : ''
+            ),
+            React.createElement(
               'h4',
               { className: 'mb-3' },
               'If you want to help'
@@ -138,11 +153,6 @@ var Foo = function Foo() {
                   contactInfo[1].facebook
                 )
               ) : ''
-            ),
-            React.createElement(
-              'p',
-              null,
-              Object.keys(contactInfo[1]).length === 0 ? 'We do not have this group\'s contact details - please email us at walthamforestmutualaid@gmail.com and we will try to put you in touch.' : ''
             ),
             React.createElement(
               'button',
