@@ -17,7 +17,7 @@ var CONTACT_DETAILS = {
   'Lea Bridge': { 'form': 'https://forms.gle/KV3AUwxbETsbifAQ9', 'phone': '0208 539 0732 (12:30-3 tuesday-sat)', 'email': 'aid@loveleabridge.com' },
   'Leyton': { 'form': 'https://forms.gle/qnWwP7fhhrBLVgoS8', 'phone': '07497620579 or 07446258318', 'email': 'leytonmutualaid@gmail.com' },
   'Leytonstone': { 'form': 'https://forms.gle/xFBLwJSVXdPVkMhbA', 'phone': '07933521407', 'email': 'leytonstone.mutual.aid@gmail.com' },
-  'Markhouse': { 'form': 'https://forms.gle/uatuTtynRRYxkiiu9', 'phone': 'Queen\'s Boundary Community Group: 07512237948', 'email': ['Friendsofstjamespark@gmail.com', 'QBCMarkhouse@gmail.com'] },
+  'Markhouse': { 'form': 'https://forms.gle/uatuTtynRRYxkiiu9', 'phone': '07512237948 (Queen\'s Boundary Community Group)', 'email': ['Friendsofstjamespark@gmail.com', 'QBCMarkhouse@gmail.com'] },
   'Valley': { 'form': 'https://forms.gle/wcJtUxN5gj3wYupKA' },
   'William Morris': { 'form': 'https://forms.gle/mLFpYQFsaSJVAQ9PA', 'phone': '07305960259', 'email': 'Williammorriscovid@gmail.com' },
   'Wood Street': { 'form': 'https://forms.gle/9nXHfVeyFPvENM9SA', 'facebook': 'https://www.facebook.com/groups/woodstmutualaid/' }
@@ -84,17 +84,19 @@ var Foo = function Foo() {
             ),
             React.createElement(
               'p',
-              null,
-              contactInfo[1] && contactInfo[1].email ? React.createElement(
-                'span',
-                null,
-                'Email: ',
-                React.createElement(
+              { className: 'email' },
+              ' Email: ',
+              contactInfo[1] && contactInfo[1].email && (Array.isArray(contactInfo[1].email) ? contactInfo[1].email.map(function (e, i) {
+                return React.createElement(
                   'a',
-                  { href: 'mailto:' + contactInfo[1].email, target: '_blank' },
-                  contactInfo[1].email
-                )
-              ) : ''
+                  { key: i, href: 'mailto:' + e },
+                  e
+                );
+              }) : React.createElement(
+                'a',
+                { href: 'mailto:' + CONTACT_DETAILS[k].email },
+                contactInfo[1].email
+              ))
             ),
             React.createElement(
               'p',
