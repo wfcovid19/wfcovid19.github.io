@@ -14,7 +14,7 @@ var CONTACT_DETAILS = {
   'Higham Hill': { 'form': 'https://forms.gle/Du6GuazmUsw5grkJA', 'phone': '07309409285', 'email': 'highamhillmutualaid@gmail.com' },
   'Hoe Street': { 'form': 'https://forms.gle/mkDdcDrMgC8Zpd1XA', 'phone': '07566767950', 'email': 'hoestreetmutualaid@gmail.com' },
   'Larkswood': { 'form': 'https://forms.gle/EQvWgyaqPctWKgSF6', 'phone': '07546155654', 'email': 'larkswoodcovid19@gmail.com' },
-  'Lea Bridge': { 'form': 'https://forms.gle/KV3AUwxbETsbifAQ9', 'phone': '0208 539 0732 (12:30-3 tuesday-sat)', 'email': 'aid@loveleabridge.com' },
+  'Lea Bridge': { 'form': 'https://forms.gle/KV3AUwxbETsbifAQ9', 'phone': '0208 539 0732 (12:30-3 tuesday-sat); 07731377893; 07952254487', 'email': 'aid@loveleabridge.com' },
   'Leyton': { 'form': 'https://forms.gle/qnWwP7fhhrBLVgoS8', 'phone': '07497620579 or 07446258318', 'email': 'leytonmutualaid@gmail.com' },
   'Leytonstone': { 'form': 'https://forms.gle/xFBLwJSVXdPVkMhbA', 'phone': '07933521407', 'email': 'leytonstone.mutual.aid@gmail.com' },
   'Markhouse': { 'form': 'https://forms.gle/uatuTtynRRYxkiiu9', 'phone': '07512237948 (Queen\'s Boundary Community Group)', 'email': ['Friendsofstjamespark@gmail.com', 'QBCMarkhouse@gmail.com'] },
