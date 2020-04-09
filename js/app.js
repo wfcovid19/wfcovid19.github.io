@@ -31,9 +31,11 @@ var search = function search(postcode, handler) {
       var ward = response.data.result.admin_ward;
       handler([ward, CONTACT_DETAILS[ward]]);
     } catch (e) {
+      console.log(e);
       alert('we couldn\'t find your ward. is your postcode correct and in waltham forest?');
     }
   }).catch(function (e) {
+    console.log(e);
     alert('we couldn\'t find your ward. is your postcode correct and in waltham forest?');
   });
 };
@@ -94,7 +96,7 @@ var Foo = function Foo() {
                 );
               }) : React.createElement(
                 'a',
-                { href: 'mailto:' + CONTACT_DETAILS[k].email },
+                { href: 'mailto:' + contactInfo[1].email },
                 contactInfo[1].email
               ))
             ),

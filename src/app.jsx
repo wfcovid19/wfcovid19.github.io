@@ -29,9 +29,11 @@ const search = (postcode, handler) => {
       const ward = response.data.result.admin_ward
       handler([ward, CONTACT_DETAILS[ward]]);
     } catch (e) {
+      console.log(e);
       alert(`we couldn't find your ward. is your postcode correct and in waltham forest?`);
     }
   }).catch(e => {
+      console.log(e);
     alert(`we couldn't find your ward. is your postcode correct and in waltham forest?`);
   });
 };
@@ -54,9 +56,9 @@ const Foo = () => {
                       <p>{contactInfo[1] && contactInfo[1].phone ? `Phone: ${contactInfo[1].phone}` : ''}</p>
 
                   <p className="email"> Email: {contactInfo[1] && contactInfo[1].email && (
-              Array.isArray(contactInfo[1].email)
-                ? contactInfo[1].email.map((e, i) => <a key={i} href={`mailto:${e}`}>{e}</a>)
-                : <a href={`mailto:${CONTACT_DETAILS[k].email}`}>{contactInfo[1].email}</a>
+                    Array.isArray(contactInfo[1].email)
+                      ? contactInfo[1].email.map((e, i) => <a key={i} href={`mailto:${e}`}>{e}</a>)
+                      : <a href={`mailto:${contactInfo[1].email}`}>{contactInfo[1].email}</a>
                   )}</p>
 
                       <p>{contactInfo[1] && contactInfo[1].facebook ? <span>Facebook: <a href={contactInfo[1].facebook} target="_blank">{contactInfo[1].facebook}</a></span> : ''}</p>
