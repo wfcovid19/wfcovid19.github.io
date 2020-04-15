@@ -1,7 +1,7 @@
 const CONTACT_DETAILS = {
 'Cann Hall': { 'form': 'https://forms.gle/oEgHW4ihCU1WCJ7h6', 'phone': '07895974729', 'email': 'cannhallmutualaid@gmail.com' },
 'Cathall': { 'form': 'https://forms.gle/PwpvE9Vx5MByutuH6', 'phone': '07926432520', 'email': 'cathall.mutual.aid@gmail.com' },
-'Chapel End': {'form': 'https://forms.gle/rqjMNhRofNjruFuS6', },
+'Chapel End': {'phone': '07511290295', 'form': 'https://forms.gle/rqjMNhRofNjruFuS6', },
 'Chingford Green': {'form': 'https://forms.gle/t2SSYURZpeMomNrZA',  'phone': null, 'email': 'Chingfordgreenmutualaid@gmail.com' },
 'Endlebury': {'form': 'https://forms.gle/tsULxCCm4s5RH6Aq6',  'phone': '020 31373908', 'email': 'chingfordcorona@gmail.com' },
 'Forest': {'form': 'https://forms.gle/L3kuTdaXnMoaSRbh7',  'phone': '07515637649', 'email': 'forestwardmutualaid@gmail.com' },
