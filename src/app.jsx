@@ -16,7 +16,7 @@ const CONTACT_DETAILS = {
 'Leyton': {'form': 'https://forms.gle/qnWwP7fhhrBLVgoS8',  'phone': '07497620579 or 07446258318', 'email': 'leytonmutualaid@gmail.com' },
 'Leytonstone': {'form': 'https://forms.gle/xFBLwJSVXdPVkMhbA',  'phone': '07933521407', 'email': 'leytonstone.mutual.aid@gmail.com' },
 'Markhouse': {'form': 'https://forms.gle/uatuTtynRRYxkiiu9',  'phone': '07512237948 (Queen\'s Boundary Community Group)', 'email': ['Friendsofstjamespark@gmail.com','QBCMarkhouse@gmail.com'] },
-'Valley': {'form': 'https://forms.gle/wcJtUxN5gj3wYupKA', },
+'Valley': {'email': 'walthamforestmutualaidvalley@gmail.com','form': 'https://forms.gle/wcJtUxN5gj3wYupKA', },
 'William Morris': {'form': 'https://forms.gle/mLFpYQFsaSJVAQ9PA',  'phone': '07305960259', 'email': 'Williammorriscovid@gmail.com' },
 'Wood Street': {'form': 'https://forms.gle/9nXHfVeyFPvENM9SA', 'facebook': 'https://www.facebook.com/groups/woodstmutualaid/'},
 };
