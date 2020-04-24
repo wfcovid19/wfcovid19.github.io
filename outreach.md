@@ -19,4 +19,4 @@ The outreach group is a community based support group within the mutual aid grou
 
 Contact: <a href="mailto:outreachwfc19@protonmail.com">outreachwfc19@protonmail.com</a>
 
-<img src="/img/foodstall.jpeg" width="100%" />
+<img src="/img/outreach.jpg" width="100%" />
