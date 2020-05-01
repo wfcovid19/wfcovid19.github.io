@@ -51,7 +51,7 @@ var Foo = function Foo() {
     { className: 'row' },
     contactInfo ? React.createElement(
       'div',
-      { className: 'col-md-12' },
+      { className: 'col-md-6' },
       React.createElement(
         'div',
         { className: 'card' },
@@ -170,7 +170,7 @@ var Foo = function Foo() {
       )
     ) : React.createElement(
       'div',
-      { className: 'col-md-12' },
+      { className: 'col-md-6' },
       React.createElement(
         'div',
         { className: 'card' },
@@ -236,42 +236,8 @@ var Foo = function Foo() {
     ),
     React.createElement(
       'div',
-      { className: 'col-md-6 mt-3' },
-      React.createElement(
-        'p',
-        null,
-        React.createElement(
-          'strong',
-          null,
-          'Can I need help AND want to help?'
-        )
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Yes!'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Mutual aid is about us all helping ',
-        React.createElement(
-          'em',
-          null,
-          'each other'
-        ),
-        ', not about one group of people helping another, separate group of people.'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'This is one of the fundamental differences between mutual aid and charity.'
-      )
-    ),
-    React.createElement(
-      'div',
-      { className: 'col-md-6 mt-3' },
-      React.createElement('img', { src: '/img/paste.png', style: { width: '100%' } })
+      { className: 'youtube col-md-6' },
+      React.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/ILXwnza5XAs', frameborder: '0', allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen: true })
     )
   );
 };

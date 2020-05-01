@@ -44,7 +44,7 @@ const Foo = () => {
     <div className="row">
       {contactInfo
         ? (
-          <div className="col-md-12">
+          <div className="col-md-6">
             <div className="card">
               <div className="card-body" style={{textAlign: 'center'}}>
                 <h3 className="card-title">Your local group is <strong>{contactInfo[0]} Mutual Aid</strong>.</h3>
@@ -78,7 +78,7 @@ const Foo = () => {
           </div>
         )
         : (
-          <div className="col-md-12">
+          <div className="col-md-6">
             <div className="card">
               <div className="card-body">
                 <h3 className="card-title">FIND YOUR LOCAL GROUP</h3>
@@ -95,14 +95,8 @@ const Foo = () => {
             </div>
           </div>
         )}
-      <div className="col-md-6 mt-3">
-        <p><strong>Can I need help AND want to help?</strong></p>
-        <p>Yes!</p>
-        <p>Mutual aid is about us all helping <em>each other</em>, not about one group of people helping another, separate group of people.</p>
-        <p>This is one of the fundamental differences between mutual aid and charity.</p>
-      </div>
-      <div className="col-md-6 mt-3">
-        <img src="/img/paste.png" style={{width: '100%'}} />
+      <div className="youtube col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ILXwnza5XAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   );
