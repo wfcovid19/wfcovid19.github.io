@@ -1,233 +1,231 @@
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
-var CONTACT_DETAILS = {
-  'Cann Hall': { 'form': 'https://forms.gle/oEgHW4ihCU1WCJ7h6', 'phone': '07895974729', 'email': 'cannhallmutualaid@gmail.com' },
-  'Cathall': { 'form': 'https://forms.gle/PwpvE9Vx5MByutuH6', 'phone': '07926432520', 'email': 'cathall.mutual.aid@gmail.com' },
-  'Chapel End': { 'phone': '07511290295', 'form': 'https://forms.gle/rqjMNhRofNjruFuS6' },
-  'Chingford Green': { 'form': 'https://forms.gle/t2SSYURZpeMomNrZA', 'phone': null, 'email': 'Chingfordgreenmutualaid@gmail.com' },
-  'Endlebury': { 'form': 'https://forms.gle/tsULxCCm4s5RH6Aq6', 'phone': '020 31373908', 'email': 'chingfordcorona@gmail.com' },
-  'Forest': { 'form': 'https://forms.gle/L3kuTdaXnMoaSRbh7', 'phone': '07515637649', 'email': 'forestwardmutualaid@gmail.com' },
-  'Grove Green': { 'form': 'https://forms.gle/hprd7CxdhYojRrgq9', 'phone': '07933057684', 'email': 'Grovegreenmutualaid@gmail.com' },
-  'Hale End and Highams Park': { 'form': 'https://forms.gle/EV456iu2xMAGE7gy7', 'phone': '07424807762', 'email': 'highamsparkcovid19@gmail.com' },
-  'Hatch Lane': { 'form': 'https://forms.gle/GucfsCkkucYnGip7A' },
-  'High Street': { 'form': 'https://forms.gle/qgJoFgHxcTEGfisQA', 'phone': '07516922035', 'email': 'e17highstmutualaid@gmail.com' },
-  'Higham Hill': { 'form': 'https://forms.gle/Du6GuazmUsw5grkJA', 'phone': '07309409285', 'email': 'highamhillmutualaid@gmail.com' },
-  'Hoe Street': { 'form': 'https://forms.gle/mkDdcDrMgC8Zpd1XA', 'phone': '07566767950', 'email': 'hoestreetmutualaid@gmail.com' },
-  'Larkswood': { 'form': 'https://forms.gle/EQvWgyaqPctWKgSF6', 'phone': '07546155654', 'email': 'larkswoodcovid19@gmail.com' },
-  'Lea Bridge': { 'form': 'https://forms.gle/KV3AUwxbETsbifAQ9', 'phone': '0208 539 0732 (12:30-3 tuesday-sat); 07731377893; 07952254487', 'email': 'aid@loveleabridge.com' },
-  'Leyton': { 'form': 'https://forms.gle/qnWwP7fhhrBLVgoS8', 'phone': '07497620579 or 07446258318', 'email': 'leytonmutualaid@gmail.com' },
-  'Leytonstone': { 'form': 'https://forms.gle/xFBLwJSVXdPVkMhbA', 'phone': '07933521407', 'email': 'leytonstone.mutual.aid@gmail.com' },
-  'Markhouse': { 'form': 'https://forms.gle/uatuTtynRRYxkiiu9', 'phone': '07512237948 (Queen\'s Boundary Community Group)', 'email': ['Friendsofstjamespark@gmail.com', 'QBCMarkhouse@gmail.com'] },
-  'Valley': { 'email': 'walthamforestmutualaidvalley@gmail.com', 'form': 'https://forms.gle/wcJtUxN5gj3wYupKA' },
-  'William Morris': { 'form': 'https://forms.gle/mLFpYQFsaSJVAQ9PA', 'phone': '07305960259', 'email': 'Williammorriscovid@gmail.com' },
-  'Wood Street': { 'form': 'https://forms.gle/9nXHfVeyFPvENM9SA', 'facebook': 'https://www.facebook.com/groups/woodstmutualaid/' }
-};
-
 var DEFAULT_FORM = 'https://forms.gle/NUYUvw7Sspwtbxp38';
 
-var search = function search(postcode, handler) {
-  axios.get('https://api.postcodes.io/postcodes/' + postcode).then(function (response) {
+var search = function search(CONTACT_DETAILS, postcode, handler) {
+  axios.get("https://api.postcodes.io/postcodes/" + postcode).then(function (response) {
     try {
       var ward = response.data.result.admin_ward;
       handler([ward, CONTACT_DETAILS[ward]]);
     } catch (e) {
       console.log(e);
-      alert('we couldn\'t find your ward. is your postcode correct and in waltham forest?');
+      alert("we couldn't find your ward. is your postcode correct and in waltham forest?");
     }
   }).catch(function (e) {
     console.log(e);
-    alert('we couldn\'t find your ward. is your postcode correct and in waltham forest?');
+    alert("we couldn't find your ward. is your postcode correct and in waltham forest?");
   });
 };
 
-var Foo = function Foo() {
+var useContactDetails = function useContactDetails() {
   var _React$useState = React.useState(null),
       _React$useState2 = _slicedToArray(_React$useState, 2),
-      contactInfo = _React$useState2[0],
-      setContactInfo = _React$useState2[1];
+      CONTACT_DETAILS = _React$useState2[0],
+      SET_CONTACT_DETAILS = _React$useState2[1];
+
+  React.useEffect(function () {
+    axios.get("/assets/contact-info.json").then(function (response) {
+      SET_CONTACT_DETAILS(response.data);
+    }).catch(function (e) {
+      console.log(e);
+      alert("Couldn't load contact info, please refresh the page and try again");
+    });
+  }, []);
+
+  return CONTACT_DETAILS;
+};
+
+var Foo = function Foo() {
+  var _React$useState3 = React.useState(null),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      contactInfo = _React$useState4[0],
+      setContactInfo = _React$useState4[1];
+
+  var CONTACT_DETAILS = useContactDetails();
+  if (!CONTACT_DETAILS) return null;
 
   return React.createElement(
-    'div',
-    { className: 'row' },
+    "div",
+    { className: "row" },
     contactInfo ? React.createElement(
-      'div',
-      { className: 'col-md-6' },
+      "div",
+      { className: "col-md-6" },
       React.createElement(
-        'div',
-        { className: 'card' },
+        "div",
+        { className: "card" },
         React.createElement(
-          'div',
-          { className: 'card-body', style: { textAlign: 'center' } },
+          "div",
+          { className: "card-body", style: { textAlign: 'center' } },
           React.createElement(
-            'h3',
-            { className: 'card-title' },
-            'Your local group is ',
+            "h3",
+            { className: "card-title" },
+            "Your local group is ",
             React.createElement(
-              'strong',
+              "strong",
               null,
               contactInfo[0],
-              ' Mutual Aid'
+              " Mutual Aid"
             ),
-            '.'
+            "."
           ),
           React.createElement(
-            'div',
+            "div",
             null,
-            React.createElement('p', null),
+            React.createElement("p", null),
             React.createElement(
-              'h4',
-              { className: 'mb-3' },
-              'If you need help'
+              "h4",
+              { className: "mb-3" },
+              "If you need help"
             ),
             React.createElement(
-              'p',
+              "p",
               null,
-              contactInfo[1] && contactInfo[1].phone ? 'Phone: ' + contactInfo[1].phone : ''
+              contactInfo[1] && contactInfo[1].phone ? "Phone: " + contactInfo[1].phone : ''
             ),
             React.createElement(
-              'p',
-              { className: 'email' },
-              ' Email: ',
+              "p",
+              { className: "email" },
+              " Email: ",
               contactInfo[1] && contactInfo[1].email && (Array.isArray(contactInfo[1].email) ? contactInfo[1].email.map(function (e, i) {
                 return React.createElement(
-                  'a',
-                  { key: i, href: 'mailto:' + e },
+                  "a",
+                  { key: i, href: "mailto:" + e },
                   e
                 );
               }) : React.createElement(
-                'a',
-                { href: 'mailto:' + contactInfo[1].email },
+                "a",
+                { href: "mailto:" + contactInfo[1].email },
                 contactInfo[1].email
               ))
             ),
             React.createElement(
-              'p',
+              "p",
               null,
               contactInfo[1] && contactInfo[1].facebook ? React.createElement(
-                'span',
+                "span",
                 null,
-                'Facebook: ',
+                "Facebook: ",
                 React.createElement(
-                  'a',
-                  { href: contactInfo[1].facebook, target: '_blank' },
+                  "a",
+                  { href: contactInfo[1].facebook, target: "_blank" },
                   contactInfo[1].facebook
                 )
               ) : ''
             ),
             React.createElement(
-              'p',
+              "p",
               null,
               Object.keys(contactInfo[1]).length === 0 ? React.createElement(
-                'span',
+                "span",
                 null,
-                'We do not have this group\'s contact details - please email us at ',
+                "We do not have this group's contact details - please email us at ",
                 React.createElement(
-                  'a',
-                  { href: 'mailto:walthamforestmutualaid@gmail.com' },
-                  'walthamforestmutualaid@gmail.com'
+                  "a",
+                  { href: "mailto:walthamforestmutualaid@gmail.com" },
+                  "walthamforestmutualaid@gmail.com"
                 ),
-                ' and we will try to put you in touch.'
+                " and we will try to put you in touch."
               ) : ''
             ),
             React.createElement(
-              'h4',
-              { className: 'mb-3' },
-              'If you want to help'
+              "h4",
+              { className: "mb-3" },
+              "If you want to help"
             ),
             React.createElement(
-              'p',
+              "p",
               null,
-              'Fill in this form: ',
+              "Fill in this form: ",
               React.createElement(
-                'a',
+                "a",
                 { href: contactInfo[1] ? contactInfo[1].form || DEFAULT_FORM : DEFAULT_FORM },
                 contactInfo[1] ? contactInfo[1].form || DEFAULT_FORM : DEFAULT_FORM
               )
             ),
             React.createElement(
-              'p',
+              "p",
               null,
               contactInfo[1] && contactInfo[1].facebook ? React.createElement(
-                'span',
+                "span",
                 null,
-                'Join this Facebook group: ',
+                "Join this Facebook group: ",
                 React.createElement(
-                  'a',
-                  { href: contactInfo[1].facebook, target: '_blank' },
+                  "a",
+                  { href: contactInfo[1].facebook, target: "_blank" },
                   contactInfo[1].facebook
                 )
               ) : ''
             ),
             React.createElement(
-              'button',
-              { type: 'submit', className: 'card-button btn btn-primary', onClick: function onClick() {
+              "button",
+              { type: "submit", className: "card-button btn btn-primary", onClick: function onClick() {
                   return setContactInfo(null);
                 } },
-              'Close'
+              "Close"
             )
           )
         )
       )
     ) : React.createElement(
-      'div',
-      { className: 'col-md-6' },
+      "div",
+      { className: "col-md-6" },
       React.createElement(
-        'div',
-        { className: 'card' },
+        "div",
+        { className: "card" },
         React.createElement(
-          'div',
-          { className: 'card-body' },
+          "div",
+          { className: "card-body" },
           React.createElement(
-            'h3',
-            { className: 'card-title' },
-            'FIND YOUR LOCAL GROUP'
+            "h3",
+            { className: "card-title" },
+            "FIND YOUR LOCAL GROUP"
           ),
           React.createElement(
-            'p',
+            "p",
             null,
-            'Each ward of Waltham Forest has its own independent mutual aid group.'
+            "Each ward of Waltham Forest has its own independent mutual aid group."
           ),
           React.createElement(
-            'p',
+            "p",
             null,
-            'Whether you ',
+            "Whether you ",
             React.createElement(
-              'strong',
+              "strong",
               null,
-              'need help'
+              "need help"
             ),
-            ' or ',
+            " or ",
             React.createElement(
-              'strong',
+              "strong",
               null,
-              'want to help'
+              "want to help"
             ),
-            ' - or both - enter your postcode to find the contact details of your local group.'
+            " - or both - enter your postcode to find the contact details of your local group."
           ),
           React.createElement(
-            'form',
+            "form",
             { onSubmit: function onSubmit(e) {
-                e.preventDefault();search(e.target.postcode.value, setContactInfo);
+                e.preventDefault();search(CONTACT_DETAILS, e.target.postcode.value, setContactInfo);
               } },
             React.createElement(
-              'div',
-              { className: 'form-group' },
-              React.createElement('input', { autoFocus: true, className: 'form-control', type: 'text', id: 'postcode', name: 'postcode', placeholder: 'Your postcode' }),
+              "div",
+              { className: "form-group" },
+              React.createElement("input", { autoFocus: true, className: "form-control", type: "text", id: "postcode", name: "postcode", placeholder: "Your postcode" }),
               React.createElement(
-                'p',
-                { className: 'mt-2' },
-                'Or see ',
+                "p",
+                { className: "mt-2" },
+                "Or see ",
                 React.createElement(
-                  'a',
-                  { href: '/groups' },
-                  'the full list'
+                  "a",
+                  { href: "/groups" },
+                  "the full list"
                 ),
-                '.'
+                "."
               ),
               React.createElement(
-                'button',
-                { type: 'submit', className: 'card-button btn btn-primary' },
-                'Search'
+                "button",
+                { type: "submit", className: "card-button btn btn-primary" },
+                "Search"
               )
             )
           )
@@ -235,97 +233,100 @@ var Foo = function Foo() {
       )
     ),
     React.createElement(
-      'div',
-      { className: 'youtube col-md-6' },
-      React.createElement('iframe', { width: '560', height: '315', src: 'https://www.youtube.com/embed/ILXwnza5XAs', frameborder: '0', allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen: true })
+      "div",
+      { className: "youtube col-md-6" },
+      React.createElement("iframe", { width: "560", height: "315", src: "https://www.youtube.com/embed/ILXwnza5XAs", frameborder: "0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen: true })
     )
   );
 };
 
 var Bar = function Bar() {
+  var CONTACT_DETAILS = useContactDetails();
+  if (!CONTACT_DETAILS) return null;
+
   return React.createElement(
-    'table',
-    { className: 'table table-bordered' },
+    "table",
+    { className: "table table-bordered" },
     React.createElement(
-      'thead',
+      "thead",
       null,
       React.createElement(
-        'tr',
+        "tr",
         null,
         React.createElement(
-          'th',
+          "th",
           null,
-          'Ward'
+          "Ward"
         ),
         React.createElement(
-          'th',
+          "th",
           null,
-          'Phone number'
+          "Phone number"
         ),
         React.createElement(
-          'th',
+          "th",
           null,
-          'Email'
+          "Email"
         ),
         React.createElement(
-          'th',
+          "th",
           null,
-          'Signup form'
+          "Signup form"
         ),
         React.createElement(
-          'th',
+          "th",
           null,
-          'Facebook'
+          "Facebook"
         )
       )
     ),
     React.createElement(
-      'tbody',
+      "tbody",
       null,
       Object.keys(CONTACT_DETAILS).map(function (k) {
         return React.createElement(
-          'tr',
+          "tr",
           null,
           React.createElement(
-            'td',
+            "td",
             null,
             k
           ),
           React.createElement(
-            'td',
+            "td",
             null,
             CONTACT_DETAILS[k] && CONTACT_DETAILS[k].phone
           ),
           React.createElement(
-            'td',
+            "td",
             null,
             CONTACT_DETAILS[k] && CONTACT_DETAILS[k].email && (Array.isArray(CONTACT_DETAILS[k].email) ? CONTACT_DETAILS[k].email.map(function (e, i) {
               return React.createElement(
-                'a',
-                { key: i, href: 'mailto:' + e },
+                "a",
+                { key: i, href: "mailto:" + e },
                 e
               );
             }) : React.createElement(
-              'a',
-              { href: 'mailto:' + CONTACT_DETAILS[k].email },
+              "a",
+              { href: "mailto:" + CONTACT_DETAILS[k].email },
               CONTACT_DETAILS[k].email
             ))
           ),
           React.createElement(
-            'td',
+            "td",
             null,
             React.createElement(
-              'a',
+              "a",
               { href: CONTACT_DETAILS[k].form || DEFAULT_FORM },
               CONTACT_DETAILS[k].form || DEFAULT_FORM
             )
           ),
           React.createElement(
-            'td',
+            "td",
             null,
             CONTACT_DETAILS[k] && CONTACT_DETAILS[k].facebook && React.createElement(
-              'a',
-              { href: '' + CONTACT_DETAILS[k].facebook },
+              "a",
+              { href: "" + CONTACT_DETAILS[k].facebook },
               CONTACT_DETAILS[k].facebook
             )
           )
