@@ -102,7 +102,7 @@ const Bar = () => {
   if (!CONTACT_DETAILS) return null;
 
   return (
-    <table className="table table-bordered">
+    <table className="table table-bordered table-responsive">
       <thead>
         <tr>
           <th>Ward</th>

@@ -49,6 +49,19 @@ body, .card {
   background-color: #1D1B1F;
 }
 
+h1 small {
+  display: block;
+  font-size: 18px;
+  color: darkgrey;
+  margin-top: 5px;
+}
+
+.navigation {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  text-align: center;
+}
 .navigation li {
   display: inline-block;
   padding: 0 15px;
@@ -57,6 +70,32 @@ body, .card {
   color: black;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.signposting-menu {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.signposting-menu li {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  padding: 5px 10px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.signposting-menu li.active {
+  background-color: #1D1B1F;
+}
+.signposting-menu .active a, .signposting-menu .active a:hover {
+  color: white;
+}
+
+.signposting-menu a, .signposting-menu a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -110,12 +149,6 @@ td a {
   margin-right: 10px;
   display: inline-block;
 }
-.navigation {
-  list-style: none;
-  padding-left: 0;
-  width: 100%;
-  text-align: center;
-}
 </style>
 
   </head>
@@ -136,10 +169,9 @@ td a {
         <li><a href="/groups">Groups</a></li>
         <li><a href="/toolkit">Toolkit</a></li>
         <li><a href="/signposting">Signposting</a></li>
-        <li><a href="/resources">Resources</a></li>
         <li><a href="/outreach">Outreach</a></li>
-        <li><a href="/map">Map</a></li>
         <li><a href="/safer-spaces-policy">Safer spaces policy</a></li>
+        <li><a href="/map">Map</a></li>
       </ul>
     </nav>
     <div class="container">

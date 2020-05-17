@@ -246,7 +246,7 @@ var Bar = function Bar() {
 
   return React.createElement(
     "table",
-    { className: "table table-bordered" },
+    { className: "table table-bordered table-responsive" },
     React.createElement(
       "thead",
       null,
