@@ -14,5 +14,3 @@ fields:
   label: Layout
   hidden: true
   default: toolkit
-pages:
-- _toolkit/precautions-when-leafleting-or-putting-up-posters.md
