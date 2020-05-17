@@ -9,6 +9,8 @@ sections:
   label: Signposting
   create: all
   match: "**/*"
+  templates:
+  - signposting
 - type: jekyll-pages
   label: Pages
   create: all
