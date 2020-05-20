@@ -12,6 +12,8 @@ To get involved, join our <a href="https://facebook.com/groups/wfcoronavirus" ta
 
 <h3>Food for the forest</h3>
 
+<img src="/img/food.jpg" style="width: 100%;"/>
+
 Over the past two weeks, mutual aid groups in Waltham Forest, in partnership with Higham Hill Muslim Community Trust and Al-Khair, have delivered more than 5000 free hot meals to more than 630 people across the borough who would otherwise not have had one.
 
 Unfortunately, we've run into a funding wall, and need your help to help keep cooking whilst we transition into the wonderful sustainable model we know we can be.
