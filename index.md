@@ -10,6 +10,16 @@ To get involved, join our <a href="https://facebook.com/groups/wfcoronavirus" ta
 
 <hr>
 
+<h3>Food for the forest</h3>
+
+Over the past two weeks, mutual aid groups in Waltham Forest, in partnership with Higham Hill Muslim Community Trust and Al-Khair, have delivered more than 5000 free hot meals to more than 630 people across the borough who would otherwise not have had one.
+
+Unfortunately, we've run into a funding wall, and need your help to help keep cooking whilst we transition into the wonderful sustainable model we know we can be.
+
+Please <a target="_blank" href="https://www.gofundme.com/f/food-for-the-forest">donate and/or share</a> to help Food for the Forest into the future!
+
+<hr>
+
 This website also contains resources we have created or found that are useful for running your own ward or street-level group.
 
 In particular, the resources provided by <a href="https://wiki.queercare.network/index.php?title=Category:Covid" target="_blank">Queercare</a> are invaluable.
