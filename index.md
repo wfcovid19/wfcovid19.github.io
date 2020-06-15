@@ -12,11 +12,11 @@ To get involved, join our <a href="https://facebook.com/groups/wfcoronavirus" ta
 
 <h3>Food for the forest</h3>
 
-<img src="/img/food.jpg" style="width: 100%;"/>
+<img src="/img/food.jpg" style="width: 75%;"/>
 
 We've raised an amazing amount so far and wanted to thank you for your generosity and belief in people-powered food!
 
-The project with <a href="https://hhmct.org.uk/">Higham Hill Muslim Community Trust</a> has ended, and we managed to deliver 8,824 meals across the Borough. Since then, we've started delivering prepared meals (around 1000 per week) on Mondays, Wednesdays and Fridays, in partnership with <a href="https://www.gmggurdwara.com/">GMG Gurdwara</a>.
+The project with <a href="https://hhmct.org.uk/">Higham Hill Muslim Community Trust</a> and <a href="https://alkhair.org/">Al-Khair</a> has ended, and we managed to deliver 8,824 meals across the Borough. Since then, we've started delivering prepared meals (around 1000 per week) on Mondays, Wednesdays and Fridays, in partnership with <a href="https://www.gmggurdwara.com/">GMG Gurdwara</a>.
 
 Different wards have taken on different projects, with partnerships with local take-away businesses, move-ins to local kitchens (mostly recently on Monday in Lea Bridge ward- woohoo!), 'cook for your neighbour' schemes, and more plans to support pre-existant operations and establish new community kitchen spaces.
 
