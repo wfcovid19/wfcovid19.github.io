@@ -14,9 +14,13 @@ To get involved, join our <a href="https://facebook.com/groups/wfcoronavirus" ta
 
 <img src="/img/food.jpg" style="width: 100%;"/>
 
-Over the past two weeks, mutual aid groups in Waltham Forest, in partnership with Higham Hill Muslim Community Trust and Al-Khair, have delivered more than 5000 free hot meals to more than 630 people across the borough who would otherwise not have had one.
+We've raised an amazing amount so far and wanted to thank you for your generosity and belief in people-powered food!
 
-Unfortunately, we've run into a funding wall, and need your help to help keep cooking whilst we transition into the wonderful sustainable model we know we can be.
+The project with <a href="https://hhmct.org.uk/">Higham Hill Muslim Community Trust</a> has ended, and we managed to deliver 8,824 meals across the Borough. Since then, we've started delivering prepared meals (around 1000 per week) on Mondays, Wednesdays and Fridays, in partnership with <a href="https://www.gmggurdwara.com/">GMG Gurdwara</a>.
+
+Different wards have taken on different projects, with partnerships with local take-away businesses, move-ins to local kitchens (mostly recently on Monday in Lea Bridge ward- woohoo!), 'cook for your neighbour' schemes, and more plans to support pre-existant operations and establish new community kitchen spaces.
+
+We're now going to start funding (or reimbursing) those initiatives and will be using a transparent platform called 'Open Collective' to support all projects working to feed our communities in Waltham Forest. 
 
 Please <a target="_blank" href="https://www.gofundme.com/f/food-for-the-forest">donate and/or share</a> to help Food for the Forest into the future!
 
