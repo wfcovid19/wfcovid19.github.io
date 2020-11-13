@@ -1,0 +1,78 @@
+.navbar .navbar-open {
+  height: 145px;
+}
+
+.navbar .navbar-closed {
+  height: 42px;
+}
+
+.navbar header {
+  background-color: #475e74;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+}
+
+.navbar header h1 {
+  margin: 5px auto;
+}
+
+.navbar header h1 a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #f8f8ff;
+  text-decoration: none;
+  padding: 0 15px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.navbar header h1 strong {
+  font-weight: 500;
+}
+
+.navbar nav {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  right: 0;
+  background: #9ac1c1;
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar nav ul {
+  transition: height 0.5s ease-in-out;
+  overflow: hidden;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 0;
+  margin: 0px auto;
+}
+
+.navbar nav ul li {
+  margin: 10px 15px;
+  display: block;
+}
+
+.navbar nav ul li a {
+  color: #444;
+  text-decoration: none;
+}
+
+.navbar nav ul li button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #475e74;
+  cursor: pointer;
+}
+
+.navbar nav ul li a:hover,
+.navbar nav ul li button:hover {
+  text-decoration: underline;
+}

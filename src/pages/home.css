@@ -1,0 +1,75 @@
+.home {
+  padding-top: 5px;
+}
+
+.postcode-search input {
+  border: 1px solid #cfcfff;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 15px 15px 15px 0;
+  width: 220px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  height: 40px;
+  display: inline-block;
+}
+
+.postcode-search input:focus,
+.postcode-search input:active {
+  outline: none;
+}
+.postcode-search input::placeholder {
+  text-transform: none;
+  font-size: 18px;
+}
+
+.postcode-search button {
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  margin: 15px 15px 15px 0;
+  padding: 5px 10px;
+  height: 40px;
+  box-sizing: border-box;
+  vertical-align: top;
+  color: #f8f8ff;
+  background-color: #475e74;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.postcode-search .fa-search {
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+.results {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.results:after {
+  content: "";
+  flex: auto;
+  flex: 0 1 100%;
+  min-width: 215px;
+}
+
+@media (min-width: 578px) {
+  .results:after {
+    flex: 0 1 calc(50% - 10px);
+  }
+}
+
+.full-list-toggle {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.result-description {
+  margin-top: 0;
+}
