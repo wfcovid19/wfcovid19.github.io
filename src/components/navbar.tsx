@@ -15,6 +15,9 @@ const Menu = () => (
     <li>
       <Link to="/signposting">Signposting</Link>
     </li>
+    <li>
+      <Link to="/stories">Stories</Link>
+    </li>
   </React.Fragment>
 );
 

@@ -80,7 +80,7 @@ const ContactInfo = {
   Markhouse: {
     form: "https://forms.gle/uatuTtynRRYxkiiu9",
     phone: "For QBC Group ring 07512237948",
-    email: ["Markhousema@gmail.com", "QBCMarkhouse@gmail.com"],
+    email: "Markhousema@gmail.com",
   },
   Valley: {
     email: "valleymutualaid.walthamforest@gmail.com",

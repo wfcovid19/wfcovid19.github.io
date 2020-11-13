@@ -1,5 +1,5 @@
 .navbar .navbar-open {
-  height: 145px;
+  height: 180px;
 }
 
 .navbar .navbar-closed {
@@ -62,6 +62,7 @@
 .navbar nav ul li a {
   color: #444;
   text-decoration: none;
+  outline: none !important;
 }
 
 .navbar nav ul li button {
@@ -70,6 +71,13 @@
   font-size: 20px;
   color: #475e74;
   cursor: pointer;
+  outline: none !important;
+}
+
+.navbar button:focus,
+.navbar button:active {
+  outline: none !important;
+  border: none !important;
 }
 
 .navbar nav ul li a:hover,

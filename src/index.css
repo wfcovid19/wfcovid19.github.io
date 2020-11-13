@@ -13,6 +13,12 @@ body {
   padding-bottom: 100px;
 }
 
+a,
+a:focus,
+a:active {
+  outline: none !important;
+}
+
 strong {
   font-weight: 600;
 }
