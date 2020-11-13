@@ -50,7 +50,6 @@ const Home = () => {
             name="postcode"
             onChange={onChange}
             value={postcode}
-            autoFocus
           />
           <button type="submit">Search</button>
         </form>
