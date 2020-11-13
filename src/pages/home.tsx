@@ -12,7 +12,7 @@ const markdown = raw("./home.md");
 const Home = () => {
   const search = usePostcodeSearch();
   const [postcode, setPostcode] = React.useState("");
-  const [expanded, setExpanded] = React.useState(true);
+  const [expanded, setExpanded] = React.useState(false);
   const ref = React.useRef<HTMLInputElement>(null);
 
   const onChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
@@ -36,7 +36,11 @@ const Home = () => {
 
   return (
     <div className="home container">
-      <Markdown children={markdown} allowDangerousHtml={true} />
+      <p>
+        Waltham Forest Mutual Aid is a network of local people who have come
+        together to support each other and our neighbours during the pandemic.
+      </p>
+      <h2>Find your local group</h2>
       <div className="postcode-search">
         <form onSubmit={onSubmit}>
           <input
@@ -112,6 +116,8 @@ const Home = () => {
           )}
         </React.Fragment>
       )}
+      <hr />
+      <Markdown children={markdown} allowDangerousHtml={true} />
     </div>
   );
 };

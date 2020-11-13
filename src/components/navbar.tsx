@@ -29,7 +29,8 @@ const Navbar = () => {
       <header>
         <h1>
           <Link to="/">
-            <strong>Waltham Forest</strong> Mutual Aid
+            <strong className="d-none d-md-inline">Waltham Forest</strong>
+            <strong className="d-md-none">WF</strong> Mutual Aid
           </Link>
         </h1>
       </header>

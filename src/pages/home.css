@@ -2,17 +2,22 @@
   padding-top: 5px;
 }
 
+.postcode-search {
+  text-align: center;
+}
+
 .postcode-search input {
   border: 1px solid #cfcfff;
   font-size: 20px;
   border-radius: 5px;
-  margin: 15px 15px 15px 0;
+  margin: 15px 5px 15px 0;
   width: 220px;
   text-transform: uppercase;
   padding: 5px 10px;
   box-sizing: border-box;
   height: 40px;
   display: inline-block;
+  text-align: left;
 }
 
 .postcode-search input:focus,
@@ -28,7 +33,7 @@
   font-size: 22px;
   border: none;
   border-radius: 5px;
-  margin: 15px 15px 15px 0;
+  margin: 15px 0;
   padding: 5px 10px;
   height: 40px;
   box-sizing: border-box;
@@ -66,10 +71,12 @@
 }
 
 .full-list-toggle {
+  text-align: center;
   margin: 0;
   margin-bottom: 15px;
 }
 
 .result-description {
+  text-align: center;
   margin-top: 0;
 }

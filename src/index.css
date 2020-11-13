@@ -79,6 +79,7 @@ a:focus {
 }
 
 h2 {
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -89,6 +90,11 @@ h2 {
   width: 0;
   height: 115px;
   margin-top: -115px;
+}
+
+button:focus,
+button:active {
+  outline: none !important;
 }
 
 button.text {
@@ -112,4 +118,17 @@ button.link {
   color: #475e74;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.d-none {
+  display: none;
+}
+
+@media (min-width: 400px) {
+  .d-md-inline {
+    display: inline;
+  }
+  .d-md-none {
+    display: none;
+  }
 }
