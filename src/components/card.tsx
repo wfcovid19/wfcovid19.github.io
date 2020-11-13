@@ -17,7 +17,7 @@ const Card: React.FC<{ ward: string; details: any }> = (props) => {
 
           {"email" in details && (
             <CardItem title="Email" icon="envelope">
-              {details.email}
+              <a href={`mailto:${details.email}`}>{details.email}</a>
             </CardItem>
           )}
 
