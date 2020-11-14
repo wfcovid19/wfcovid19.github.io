@@ -5,11 +5,13 @@ import _ from "lodash";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import Markdown from "react-markdown/with-html";
 import { usePostcodeSearch } from "../hooks/use-postcode-search";
+import { usePageTitle } from "../hooks/use-page-title";
 import raw from "raw.macro";
 import Card from "../components/card";
 const markdown = raw("./home.md");
 
 const Home = () => {
+  usePageTitle("Find your local group");
   const search = usePostcodeSearch();
   const [postcode, setPostcode] = React.useState("");
   const [expanded, setExpanded] = React.useState(false);
