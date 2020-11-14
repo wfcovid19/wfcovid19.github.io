@@ -1,9 +1,9 @@
 .navbar .navbar-open {
-  height: 180px;
+  height: 166px;
 }
 
 .navbar .navbar-closed {
-  height: 42px;
+  height: 35px;
 }
 
 .navbar header {
@@ -55,17 +55,26 @@
 }
 
 .navbar nav ul li {
-  margin: 10px 15px;
   display: block;
 }
 
 .navbar nav ul li a {
   color: #444;
   text-decoration: none;
+  display: block;
   outline: none !important;
+  padding: 5px 15px;
+}
+.navbar nav ul li a:hover,
+.navbar nav ul li button:hover {
+  text-decoration: none;
+  background-color: #475e74;
+  color: #fff;
 }
 
 .navbar nav ul li button {
+  display: block;
+  padding: 5px 15px;
   border: none;
   background: none;
   font-size: 20px;
@@ -73,7 +82,8 @@
   cursor: pointer;
   outline: none !important;
   margin: 0;
-  padding: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .navbar button:focus,
@@ -84,5 +94,5 @@
 
 .navbar nav ul li a:hover,
 .navbar nav ul li button:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
