@@ -1,10 +1,10 @@
 import React from "react";
 import Markdown from "react-markdown/with-html";
-import { usePageTitle } from "../hooks/use-page-title";
+import { usePageTitle } from "../../hooks/use-page-title";
 import raw from "raw.macro";
-const markdown = raw("./signposting.md");
+const markdown = raw("./home.md");
 
-const Signposting = () => {
+const Home = () => {
   usePageTitle("Signposting");
   return (
     <div className="container">
@@ -13,4 +13,4 @@ const Signposting = () => {
   );
 };
 
-export default Signposting;
+export default Home;

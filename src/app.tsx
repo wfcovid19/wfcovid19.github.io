@@ -8,20 +8,18 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 const App = () => (
-  <React.Fragment>
-    <Router>
-      <div id="main">
-        <Navbar />
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/toolkit" component={Toolkit} exact />
-          <Route path="/signposting" component={Signposting} exact />
-          <Route path="/stories" component={Stories} exact />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
-  </React.Fragment>
+  <Router>
+    <div id="main">
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/toolkit" component={Toolkit} exact />
+        <Route path="/signposting" component={Signposting} />
+        <Route path="/stories" component={Stories} exact />
+      </Switch>
+      <Footer />
+    </div>
+  </Router>
 );
 
 export default App;

@@ -132,3 +132,7 @@ button.link {
     display: none;
   }
 }
+
+.airtable-embed {
+  margin-top: 30px;
+}
