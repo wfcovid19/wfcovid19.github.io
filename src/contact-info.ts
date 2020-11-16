@@ -19,7 +19,6 @@ const ContactInfo = {
   },
   Endlebury: {
     form: "https://forms.gle/tsULxCCm4s5RH6Aq6",
-    phone: "020 31373908",
     email: "chingfordcorona@gmail.com",
   },
   Forest: {
@@ -29,7 +28,6 @@ const ContactInfo = {
   },
   "Grove Green": {
     form: "https://forms.gle/hprd7CxdhYojRrgq9",
-    phone: "07933057684",
     email: "Grovegreenmutualaid@gmail.com",
   },
   "Hale End and Highams Park": {
@@ -64,7 +62,7 @@ const ContactInfo = {
   },
   "Lea Bridge": {
     form: "https://forms.gle/KV3AUwxbETsbifAQ9",
-    phone: "0208 539 0732 (12:30-3 tuesday-sat); 07731377893; 07952254487",
+    phone: "07731377893; 07952254487; 0208 539 0732 (12:30-3 tuesday-sat)",
     email: "aid@loveleabridge.com",
   },
   Leyton: {
@@ -74,12 +72,12 @@ const ContactInfo = {
   },
   Leytonstone: {
     form: "https://forms.gle/xFBLwJSVXdPVkMhbA",
-    phone: "07933521407",
+    phone: "07933521407 Mon, Wed, Fri (12pm - 6pm)",
     email: "leytonstone.mutual.aid@gmail.com",
   },
   Markhouse: {
     form: "https://forms.gle/uatuTtynRRYxkiiu9",
-    phone: "For QBC Group ring 07512237948",
+    phone: "For QBC Group send SMS to 07512237948",
     email: "Markhousema@gmail.com",
   },
   Valley: {
