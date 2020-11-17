@@ -42,7 +42,7 @@ const Home = () => {
         Waltham Forest Mutual Aid is a network of local people who have come
         together to support each other and our neighbours during the pandemic.
       </p>
-      <h2>Find your local group</h2>
+      <h2 className="text-center">Find your local group</h2>
       <div className="postcode-search">
         <form onSubmit={onSubmit}>
           <input

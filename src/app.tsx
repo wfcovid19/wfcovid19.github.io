@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Toolkit from "./pages/toolkit";
 import Signposting from "./pages/signposting";
 import Stories from "./pages/stories";
+import ChingfordHighamsParkGiftHub from "./pages/chingfordhighamsparkgifthub";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
@@ -16,6 +17,11 @@ const App = () => (
         <Route path="/toolkit" component={Toolkit} exact />
         <Route path="/signposting" component={Signposting} />
         <Route path="/stories" component={Stories} exact />
+        <Route
+          path="/chingfordhighamsparkgifthub"
+          component={ChingfordHighamsParkGiftHub}
+          exact
+        />
       </Switch>
       <Footer />
     </div>
