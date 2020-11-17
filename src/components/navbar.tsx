@@ -4,23 +4,6 @@ import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import { useDropdown } from "../hooks/use-dropdown";
 import { Link } from "react-router-dom";
 
-const Menu = () => (
-  <React.Fragment>
-    <li>
-      <Link to="/">Find your local group</Link>
-    </li>
-    <li>
-      <Link to="/toolkit">Toolkit</Link>
-    </li>
-    <li>
-      <Link to="/signposting">Signposting</Link>
-    </li>
-    <li>
-      <Link to="/stories">Stories</Link>
-    </li>
-  </React.Fragment>
-);
-
 const Navbar = () => {
   const dropdown = useDropdown();
 
@@ -36,8 +19,19 @@ const Navbar = () => {
       </header>
       <nav>
         <ul className={dropdown.open ? "navbar-open" : "navbar-closed"}>
-          {dropdown.open && <Menu />}
           <li>
+            <Link to="/">Find your local group</Link>
+          </li>
+          <li>
+            <Link to="/toolkit">Toolkit</Link>
+          </li>
+          <li>
+            <Link to="/signposting">Signposting</Link>
+          </li>
+          <li>
+            <Link to="/stories">Stories</Link>
+          </li>
+          <li className="navbar-toggle">
             <button onClick={dropdown.toggle}>
               <Icon icon={dropdown.open ? "caret-up" : "bars"} />
             </button>
