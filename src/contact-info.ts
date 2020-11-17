@@ -29,6 +29,7 @@ const ContactInfo = {
   "Grove Green": {
     form: "https://forms.gle/hprd7CxdhYojRrgq9",
     email: "Grovegreenmutualaid@gmail.com",
+    phone: "07933057684",
   },
   "Hale End and Highams Park": {
     form: "https://forms.gle/EV456iu2xMAGE7gy7",
