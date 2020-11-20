@@ -31,6 +31,12 @@ const Navbar = () => {
           <li>
             <Link to="/stories">Stories</Link>
           </li>
+          <li>
+            <Link to="/chingfordhighamsparkgifthub">
+              Chingford & Highams Park Gift Hub
+            </Link>
+          </li>
+
           <li className="navbar-toggle">
             <button onClick={dropdown.toggle}>
               <Icon icon={dropdown.open ? "caret-up" : "bars"} />

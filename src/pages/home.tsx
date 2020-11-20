@@ -119,6 +119,33 @@ const Home = () => {
       )}
       <hr />
       <Markdown children={markdown} allowDangerousHtml={true} />
+      <hr />
+      <h2>
+        Chingford Bells and Highams Park Sparkle Christmas Present fundraiser
+      </h2>
+      <div className="cols mt-2">
+        <div className="col">
+          <a href="/chingfordhighamsparkgifthub">
+            <img
+              src="/img/gifthub-banner.jpg"
+              alt="Be a Secret Santa! Local children are facing Christmas without a present. You can help."
+              style={{ width: "100%", marginBottom: "12px" }}
+            />
+          </a>
+        </div>
+        <div className="col">
+          <div className="ml-2">
+            <p>
+              Chingford and Highams Park Mutual Aid are running{" "}
+              <a href="/chingfordhighamsparkgifthub">a fundraiser</a> in
+              association with Highams Park Food Hub, Peabody’s Pantry and
+              Friday Hill Food rescue Hub. They’re aiming to raise £5000 in
+              order to give 250 children a £20 gift voucher to spend in local
+              shops.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
