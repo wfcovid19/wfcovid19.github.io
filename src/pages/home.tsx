@@ -47,7 +47,7 @@ const Home = () => {
         <form onSubmit={onSubmit}>
           <input
             ref={ref}
-            placeholder="Enter your postcode..."
+            placeholder="Enter postcode..."
             type="text"
             name="postcode"
             onChange={onChange}
@@ -117,6 +117,11 @@ const Home = () => {
           )}
         </React.Fragment>
       )}
+      <p>
+        If you need help, or would like to get involved, enter your postcode
+        above to find the contact details for your local group.{" "}
+        <strong>You don’t need a referral</strong> to receive support.
+      </p>
       <hr />
       <Markdown children={markdown} allowDangerousHtml={true} />
       <hr />
