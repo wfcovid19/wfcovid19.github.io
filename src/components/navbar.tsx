@@ -32,6 +32,9 @@ const Navbar = () => {
             <Link to="/stories">Stories</Link>
           </li>
           <li>
+            <Link to="/faq">FAQ</Link>
+          </li>
+          <li>
             <Link to="/chingfordhighamsparkgifthub">
               Chingford & Highams Park Gift Hub
             </Link>
