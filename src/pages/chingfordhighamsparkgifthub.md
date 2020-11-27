@@ -1,13 +1,13 @@
-## Chingford Bells & Highams Park Sparkle Christmas Present fundraiser
+## Chingford Bells & Highams Park Sparkle Christmas Campaign
 
 <img class="cb-img" src="/img/gifthub-banner.jpg" alt="Be a Secret Santa! Local children are facing Christmas without a present. You can help." />
 
 <p style="text-align: center;" markdown="1">
-<em>Have a voucher? <strong><a href="#shops">Find out where you can spend it.</a></strong></em>
+  <em>Want to donate? Visit our <strong><a href="https://www.justgiving.com/crowdfunding/chingfordhighamsparkgifthub" target="_blank" rel="noreferrer">JustGiving page</a></strong>.</em>
 </p>
 
 <p style="text-align: center;" markdown="1">
-  <em>Want to donate? Visit our <strong><a href="https://www.justgiving.com/crowdfunding/chingfordhighamsparkgifthub" target="_blank" rel="noreferrer">JustGiving page</a></strong>.</em>
+<em>Have a voucher? <strong><a href="#shops">Find out where you can spend it.</a></strong></em>
 </p>
 
 These unprecedented times have yielded unprecedented displays of care and concern from our community – a commitment to ensuring that no one in Highams Park and Chingford was without help, support and food.

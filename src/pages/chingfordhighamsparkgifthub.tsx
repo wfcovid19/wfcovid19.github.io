@@ -21,8 +21,11 @@ const ChingfordHighamsParkGiftHub = () => {
       <h2>Voucher Terms and Conditions</h2>
       <p>
         <ol>
-          <li>1 x voucher per child. One time, one transaction used in full</li>
-          <li>Voucher must be redeemed by 31 January 2021</li>
+          <li>
+            1 x voucher per child. One time, one transaction used in full.
+          </li>
+          <li>For children under 18 only.</li>
+          <li>Voucher must be redeemed by 31 January 2021.</li>
           <li>
             Non transferrable - only to be redeemed in store or online with
             participating businesses.
