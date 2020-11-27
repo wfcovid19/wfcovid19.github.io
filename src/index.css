@@ -95,6 +95,7 @@ hr {
   border: none;
   text-align: center;
   margin: 15px 0;
+  clear: both;
 }
 
 hr:after {
@@ -114,6 +115,10 @@ a:focus {
 
 h2 {
   margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+h3 {
   margin-bottom: 6px;
 }
 
@@ -173,4 +178,15 @@ button.link {
 
 .airtable-embed {
   margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hr {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dedede;
+  clear: both;
 }
