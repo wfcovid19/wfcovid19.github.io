@@ -15,9 +15,9 @@ E4 7BJ
 
 When you redeem your voucher with us, we'll give you a free crafty Christmas present wrapped and ready for Christmas Day.
 
-<img src="/img/grace-and-albert.png" style="width: 300px; float: left; margin-right: 10px;"  />
-
 <div class="hr"></div>
+
+<img src="/img/grace-and-albert.png" style="width: 300px; float: left; margin-right: 10px;"  />
 
 Grace & Albert  
 [https://www.facebook.com/Grace-Albert-Home-Goods-25555150499087/](https://www.facebook.com/Grace-Albert-Home-Goods-25555150499087/)
