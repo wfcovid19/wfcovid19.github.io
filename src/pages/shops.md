@@ -13,7 +13,7 @@ The Craft Cabin
 Chingford  
 E4 7BJ  
 
-When you redeem your voucher with us, you’ll also receive a free Christmas Cracker with an extra gift just for you!
+When you redeem your voucher with us, we'll give you a free crafty Christmas present wrapped and ready for Christmas Day.
 
 <img src="/img/grace-and-albert.png" style="width: 300px; float: left; margin-right: 10px;"  />
 
