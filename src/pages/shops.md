@@ -38,8 +38,18 @@ Ziggy's
 
 3 Signal Walk  
 Highams Park  
-London   
 E4 9BW  
+
+<div class="hr"></div>
+
+<img src="/img/bailey-and-ash.jpg" style="width: 300px; float: left; margin-right: 10px;"  />
+
+Bailey & Ash  
+[https://www.facebook.com/baileyandash/](https://www.facebook.com/baileyandash/)
+
+58 Station Road  
+Chingford   
+E4 7BE  
 
 <div class="hr"></div>
 
