@@ -4,6 +4,17 @@ We’re delighted to be working in partnership with our local businesses in Chin
 
 When you’ve received your voucher, you’ll be able to redeem them at the following shops:
 
+<img src="/img/bailey-and-ash.jpg" style="width: 300px; float: left; margin-right: 10px;"  />
+
+Bailey & Ash  
+[https://www.facebook.com/baileyandash/](https://www.facebook.com/baileyandash/)
+
+58 Station Road  
+Chingford   
+E4 7BE  
+
+<div class="hr"></div>
+
 ![The Craft Cabin](/img/craft-cabin.jpg)
 
 The Craft Cabin  
@@ -30,6 +41,21 @@ When shopping in-store, you’ll also receive an extra gift bag from all of us a
 
 <div class="hr"></div>
 
+<img src="/img/oh-my-coffee.jpg" style="width: 300px; float: left; margin-right: 10px;"  />
+
+Oh My Coffee  
+[https://www.ohmyltd.com/delivery](https://www.ohmyltd.com/delivery)
+
+For a lovely selection of children's packed lunch boxes, water bottles, flasks, aprons, backpacks and bath bombs. As well as beautiful stationary range from William Morris.
+
+92-94 Old Church Rd  
+Chingford Mount  
+E4 8BX  
+
+0208 529 4507
+
+<div class="hr"></div>
+
 <img src="/img/ziggys.jpg" style="width: 300px; float: left; margin-right: 10px;"  />
 
 Ziggy's  
@@ -42,19 +68,8 @@ E4 9BW
 
 <div class="hr"></div>
 
-<img src="/img/bailey-and-ash.jpg" style="width: 300px; float: left; margin-right: 10px;"  />
-
-Bailey & Ash  
-[https://www.facebook.com/baileyandash/](https://www.facebook.com/baileyandash/)
-
-58 Station Road  
-Chingford   
-E4 7BE  
-
-<div class="hr"></div>
-
 How to redeem my voucher:
 
 In-store - All participating shops will be open (as per Government Guidelines) from the 3 December. Please check with businesses direct, for opening times.
 
-Online - You’ll  also be able to redeem your voucher online in a selection of participating shops.
+Online - **[Redeem your voucher online here](https://ticketlab.shop/chingford-highams-park-christmas/).**
