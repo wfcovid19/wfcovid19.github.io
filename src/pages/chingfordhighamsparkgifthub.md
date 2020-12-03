@@ -27,3 +27,5 @@ Support your local businesses and be secret Santa to a child in need this Christ
 Donate on our <a href="https://www.justgiving.com/crowdfunding/chingfordhighamsparkgifthub" target="_blank" rel="noreferrer">JustGiving page</a>.  
 
 Thank you for your continued support.
+
+[Frequently Asked Questions](https://ticketlab.shop/chingford-highams-park-gift-hub-faqs/)
