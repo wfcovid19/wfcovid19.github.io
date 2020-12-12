@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import ContactInfo from "../contact-info";
+import ContactInfo from "../contact-info.json";
 import _ from "lodash";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import Markdown from "react-markdown/with-html";
